@@ -1,0 +1,114 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    background-color: cadetblue;
+    font-family: 'Oswald',sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.add-todo-wrapper{
+
+
+    border-radius:10px ;
+    padding: 10px ;
+}
+
+
+.input-wrapper{
+    width: 80%;
+   margin: auto;
+}
+
+.input-wrapper input{
+    width: 40%;
+    height: 25px;
+    margin:auto ;
+    
+    text-align: center;
+
+}
+
+.button-wrapper{
+    width: 20%;
+    display: flex;
+    justify-content:flex-end ;
+    margin-left: 600px;
+}
+
+.button-wrapper button {
+    width:80% ;
+    background-color:springgreen ;
+    color: #ffff;
+    outline: none;
+    border: none;
+    height: 25px;
+    cursor: pointer;
+    
+}
+
+.todo-item {
+    display: flex;
+    width: 500px;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color:orange ;
+    margin: auto;
+
+}
+
+.todo-item.checked{
+    background-color:rgb(138, 108, 108) ;
+    opacity: 0.5 ;
+}
+
+.todo-item-delition{
+    animation: opacity 1s ease-in-out;
+}
+
+.descriptions{
+width: 80%;
+display: flex;
+align-items: center;
+color: rgb(10, 10, 8);
+
+}
+
+.buttons{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+    
+}
+
+.buttons.input{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.buttons button{
+    outline: none;
+    border: none;
+    background-color: crimson;
+    color: #ffff;
+cursor: pointer;
+height: 25px;
+border-radius: 5px;
+}
+
